@@ -23,7 +23,11 @@ dependencies:
     sdk: flutter
   stripe_android: ^9.0.0+1
   stripe_ios: ^9.0.0
-  stripe_platform_interface: ^9.0.0
+  stripe_platform_interface:
+    git:
+      url: https://github.com/flutter-stripe/flutter_stripe.git
+      ref: main
+      path: ./packages/stripe_platform_interface
 dev_dependencies:
   flutter_test:
     sdk: flutter
